@@ -9,11 +9,9 @@ import org.springframework.web.servlet.ModelAndView;
 public class HelloWorldController {
  
  @RequestMapping("/helloworld")
- public ModelAndView hello() {
+ public String hello() {
  
-  String helloWorldMessage = "Hello world from java2blog!";
-  return new ModelAndView("hello", "message", helloWorldMessage);
- }
-}
+return "Heloo New World ";
+}}
 
 
